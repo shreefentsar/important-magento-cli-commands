@@ -1,6 +1,6 @@
 
-# important magento2 cli commands
- 
+# important-magento-cli-commands
+
 ## Important commands for using php and composer in plesk cli:
 
 **for plesk to specify php version in ssh:**
@@ -48,10 +48,14 @@ php bin/magento catalog:image:resize
 
 **Deploy Mode Functions:**
 php bin/magento deploy:mode:show
+
 php bin/magento deploy:mode:set production ( default | production | develop )
 
 **Some Config Set from CLI:**
 php bin/magento config:set dev/js/enable_js_bundling 1
+
 php bin/magento config:set dev/js/minify_files 1
+
 php bin/magento config:set dev/static/sign 1
+
 php bin/magento config:set dev/js/merge_files 1
