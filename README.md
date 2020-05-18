@@ -1,6 +1,6 @@
 
 # important magento2 cli commands
-
+ 
 ## Important commands for using php and composer in plesk cli:
 
 **for plesk to specify php version in ssh:**
