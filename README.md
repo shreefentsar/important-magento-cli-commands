@@ -73,7 +73,7 @@ php bin/magento catalog:image:resize
 
 php bin/magento deploy:mode:show
 
-php bin/magento deploy:mode:set production ( default | production | develop )
+php bin/magento deploy:mode:set production ( default | production | developer )
 
 
 **Some Config Set from CLI:**
