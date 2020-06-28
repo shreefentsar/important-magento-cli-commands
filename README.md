@@ -1,7 +1,7 @@
 
 # important-magento-cli-commands
 
-## Important commands for using php and composer in plesk cli:
+## Important commands for using php and composer in plesk cli ( DON'T TRY ON WHM/CPANEL ):
 
 **for plesk to specify php version in ssh:**
 echo "alias php='/opt/plesk/php/7.3/bin/php'" >> ~/.bashrc
@@ -16,9 +16,13 @@ create ~/.profile and insert this in it:
  ~/.profile: executed by Bourne-compatible login shells.
 
 if [ "$BASH" ]; then
+
   if [ -f ~/.bashrc ]; then
+
     . ~/.bashrc
+
   fi
+
 fi
 
 
