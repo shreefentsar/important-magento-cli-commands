@@ -1,11 +1,12 @@
 
 # important-magento-cli-commands
 
-## Important commands for using php and composer in plesk cli ( DON'T TRY ON WHM/CPANEL ):
+**Important commands for using php and composer in plesk cli ( DON'T TRY ON WHM/CPANEL ):**
 
 **for plesk to specify php version in ssh:**
+```bash
 echo "alias php='/opt/plesk/php/7.3/bin/php'" >> ~/.bashrc
-
+```
 **for plesk to specify the composer php version:**
 
 ```bash
