@@ -7,13 +7,15 @@
 echo "alias php='/opt/plesk/php/7.3/bin/php'" >> ~/.bashrc
 
 **for plesk to specify the composer php version:**
-echo "alias composer='/opt/plesk/php/7.3/bin/php -d memory_limit=2048M /usr/lib/plesk-9.0/composer.phar'" >> ~/.bashrc
 
+```bash
+echo "alias composer='/opt/plesk/php/7.3/bin/php -d memory_limit=2048M /usr/lib/plesk-9.0/composer.phar'" >> ~/.bashrc
+```
 **for plesk load .bashrc after ssh login:**
 
 create ~/.profile and insert this in it:
-
- ~/.profile: executed by Bourne-compatible login shells.
+```bash
+~/.profile: executed by Bourne-compatible login shells.
 
 if [ "$BASH" ]; then
 
@@ -24,6 +26,9 @@ if [ "$BASH" ]; then
   fi
 
 fi
+```
+
+
 
 
 ## useful Magento 2 CLI commands:
