@@ -5,12 +5,12 @@
 
 **for plesk to specify php version in ssh:**
 ```bash
-echo "alias php='/opt/plesk/php/7.3/bin/php'" >> ~/.bashrc
+echo "alias php='/opt/plesk/php/8.1/bin/php'" >> ~/.bashrc
 ```
 **for plesk to specify the composer php version:**
 
 ```bash
-echo "alias composer='/opt/plesk/php/7.3/bin/php -d memory_limit=2048M /usr/lib/plesk-9.0/composer.phar'" >> ~/.bashrc
+echo "alias composer='/opt/plesk/php/8.1/bin/php -d memory_limit=2048M /usr/lib/plesk-9.0/composer.phar'" >> ~/.bashrc
 ```
 **for plesk load .bashrc after ssh login:**
 
